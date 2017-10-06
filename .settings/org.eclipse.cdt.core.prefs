@@ -166,10 +166,10 @@ environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.DT
 environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.DTS/value=0
 environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.LOCAL/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.LOCAL/operation=replace
-environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.LOCAL/value=1507062456
+environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.LOCAL/value=1507314431
 environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.UTC/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.UTC/operation=replace
-environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.UTC/value=1507055256
+environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.UTC/value=1507307231
 environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.ZONE/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.ZONE/operation=replace
 environment/project/io.sloeber.core.toolChain.release.2085778284/A.EXTRA.TIME.ZONE/value=7200
@@ -484,10 +484,10 @@ environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.BOARD_NA
 environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.BOARD_NAME/value=Arduino/Genuino Uno
 environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.COM_PORT/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.COM_PORT/operation=replace
-environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.COM_PORT/value=/dev/ttyACM1
+environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.COM_PORT/value=/dev/ttyACM0
 environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.ECLIPSE_LOCATION/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.ECLIPSE_LOCATION/operation=replace
-environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.ECLIPSE_LOCATION/value=${eclipse_home}//////////////////
+environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.ECLIPSE_LOCATION/value=${eclipse_home}/////////////////////////////////////////////////////////////////////////////////////////////////
 environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.EXTRA.C.COMPILE/delimiter=\:
 environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.EXTRA.C.COMPILE/operation=replace
 environment/project/io.sloeber.core.toolChain.release.2085778284/JANTJE.EXTRA.C.COMPILE/value=
