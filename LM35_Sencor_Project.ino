@@ -1,14 +1,16 @@
 #include "Arduino.h"
 
-int pot = 0;
-int pot1	=	5;
-int value	=	0;
-int reading = 0;
-float tempC = 0;
-int pin13 = 13;
-int pin12 = 12;
-int pin11 = 11;
-int pin10 = 10;
+	int pot 		=	0;
+	int pot1		=	5;
+	int value		=	0;
+	int reading 	= 	0;
+	float tempC 	= 	0;
+	int pin13 		= 	13;
+	int pin12 		=	12;
+	int pin11 		= 	11;
+	int pin10 		= 	10;
+	int buttonPint	=	8;
+	int buttonInput	=	0;
 
 void setup() {
 	Serial.begin(9600);
@@ -17,14 +19,17 @@ void setup() {
 	pinMode(pin12, OUTPUT);
 	pinMode(pin11, OUTPUT);
 	pinMode(pin10, OUTPUT);
+	pinMode(buttonPint, INPUT);
 }
 
 void loop() {
-
+	buttonInput	=	digitalRead(buttonPint );
 	reading = analogRead(pot);
 	tempC = reading /9.31;
 	value	=	analogRead(A5);
 	Serial.println(tempC);
+
+		if(buttonInput	==	HIGH){
 
 		if (tempC <= 10) {
 			digitalWrite(pin10, HIGH);
@@ -52,5 +57,6 @@ void loop() {
 			delay(value);
 
 
+		}
 		}
 }
